@@ -1,0 +1,47 @@
+    1  git config --global user.name "Evgen Tret"
+    2  git config --global user.email jeka914@gmail.com
+    3  git clone https://github.com/1077/HW_10.git
+    4  ls
+    5  cd HW_10
+    6  ls
+    7  touch text_ignore.txt
+    8  ls
+    9  nano .gitignore.txt
+   10  ls
+   11  git status
+   12  git add .gitignore.txt
+   13  git status
+   14  git add text_ignore.txt
+   15  git status
+   16  git commit -m "New file save"
+   17  git status
+   18  touch main_test.txt
+   19  ls
+   20  git status
+   21  git add main_test.txt
+   22  git status
+   23  git commit -m "New file save1"
+   24  git status
+   25  ls
+   26  git status
+   27  git checkout -b develop
+   28  git checkout develop
+   29  touch develop_test.txt
+   30  git status
+   31  git add develop_test.txt
+   32  git status
+   33  git commit -m "New file save2"
+   34  nano develop_test.txt
+   35  git status
+   36  git add develop_test.txt
+   37  git commit -m "New file save2"
+   38  git status
+   39  git checkout main
+   40  git merge develop
+   41  git log
+   42  git log
+   43  git status
+   44  git status
+   45  git log
+   46  command_list.csv
+   47  history>command_list.csv
