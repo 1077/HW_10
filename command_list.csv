@@ -45,3 +45,21 @@
    45  git log
    46  command_list.csv
    47  history>command_list.csv
+   48  git status
+   49  git add command_list.csv
+   50  git status
+   51  git commit -m "New file save3"
+   52  git status
+   53  git push
+   54  git push
+   55  ls
+   56  nano .gitignore
+   57  git status
+   58  git add .gitignore
+   59  git status
+   60  git add .gitignore.txt
+   61  git add text_ignore.txt
+   62  git status
+   63  git commit -m "New file save4"
+   64  git status
+   65  history>command_list.csv
